@@ -1,0 +1,46 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.suspect-item {
+  border: 1px solid #CCC;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.menu {
+  background-color: #000;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.menu-title {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.menu-list li {
+  color: #FFF;
+  font-size: 18px;
+}
+
+.menu-list li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+}
